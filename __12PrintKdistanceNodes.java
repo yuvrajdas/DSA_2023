@@ -80,7 +80,7 @@ public class __12PrintKdistanceNodes {
                 return true;
             }
 
-            boolean rc = nodeToRootPath(root, target);
+            boolean rc = nodeToRootPath(root.right, target);
             if (rc) {
                 path.add(root);
                 return true;
