@@ -43,21 +43,21 @@ public class __13NodeToLeafPath {
         static ArrayList<ArrayList<Integer>> res = new ArrayList<>();
         public static void rootToLeafPath(Node root, ArrayList<Integer> list){
             if(root == null) return;
-            ArrayList<Integer> newList = new ArrayList<>(list);
+            ArrayList<Integer> newList = new ArrayList<>(list); 
             newList.add(root.data);
             if(root.left == null && root.right == null){
                 res.add(newList);
-            }
+            } 
            
             rootToLeafPath(root.left, newList);
-            rootToLeafPath(root.right, newList);
+            rootToLeafPath(root.right, newList); 
         }
-        public static void printRes(){
+        public static void printRes(){ 
             System.out.println(res);
         }
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {  
         int arr[] = {1,2,-1,-1,3,-1,-1};
         BinaryTree bt = new BinaryTree();
         Node root = bt.constructTree(arr);
