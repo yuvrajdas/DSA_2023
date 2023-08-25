@@ -65,6 +65,25 @@ public class __20isTreeBST{
 
             return mp;
         }
+
+        public static void isValidBST2Helper(Node root, Node prev, boolean f){
+            if(root == null) return;
+
+            isValidBST2Helper(root.left, prev, f);
+            if(prev!=null && root.data<prev.data){
+                f = false;
+            }
+            prev = root;
+            isValidBST2Helper(root.right, prev, f);
+
+        }
+        public static boolean isValidBST2(Node root){
+            if(root == null) return false; 
+            boolean f = true;
+            Node prev = null;
+            isValidBST2Helper(root, prev, f);
+            return f;
+        }
     }
     
     public static void main(String[] args) {
@@ -76,8 +95,10 @@ public class __20isTreeBST{
         }
 
         bst.printTree(root);
-        BinarySearchTree.BSTPair bpc = bst.isValidBST(root); 
+        // BinarySearchTree.BSTPair bpc = bst.isValidBST(root); 
+        // System.out.println("Is the tree a valid BST " + bpc.isBST);
 
-       System.out.println("Is the tree a valid BST " + bpc.isBST);
+        boolean res = bst.isValidBST2(root);
+        System.out.println(res);
     }
 }
