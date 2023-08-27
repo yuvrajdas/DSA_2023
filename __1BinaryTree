@@ -1,6 +1,0 @@
-Tree is a Hierarchical Data Structure, when we have a data in the form of Hierarchical we use Tree data Structure to store it.
-
-Types of Tree
-1. Generic Tree => It has one parent (root) Node and it can be many child Node
-2. Binary Tree => It has one parent (root) Node and it can be mininum 0 node and max 2 child node.
-3. Binary Search Tree  => It has one parent Node and it can be mininum 0 node max 2 child node but the smaller than the root node alway in left side and greater than the root node always in the right side.
