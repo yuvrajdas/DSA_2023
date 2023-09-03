@@ -1,5 +1,3 @@
-package StriverSheet;
-
 import java.util.Arrays;
 
 public class __3InsertionSort {
