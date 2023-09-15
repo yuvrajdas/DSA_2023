@@ -46,12 +46,12 @@ public class __29TopViewOfBinaryTree {
                 int count = que.size();
                 
                 for(int i = 0; i<count; i++){
-                    Node rn = que.remove();
+                    Pair rn = que.remove();
 
-                    if()
+
                 }
             }
-
+            return res;
 
         }
 
