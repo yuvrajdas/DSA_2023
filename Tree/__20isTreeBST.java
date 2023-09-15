@@ -88,17 +88,17 @@ public class __20isTreeBST{
     
     public static void main(String[] args) {
         int arr[] = {8,5,1,7,10,12};
-        BinarySearchTree bst = new BinarySearchTree();
+    
         Node root = null;
         for(int i=0; i<arr.length; i++){
-            root = bst.constructBST(arr[i], root);
+            root = BinarySearchTree.constructBST(arr[i], root);
         }
 
-        bst.printTree(root);
+        BinarySearchTree.printTree(root);
         // BinarySearchTree.BSTPair bpc = bst.isValidBST(root); 
         // System.out.println("Is the tree a valid BST " + bpc.isBST);
 
-        boolean res = bst.isValidBST2(root);
+        boolean res = BinarySearchTree.isValidBST2(root);
         System.out.println(res);
     }
 }

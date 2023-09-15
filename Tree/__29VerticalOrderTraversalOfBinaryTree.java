@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class __29TopViewOfBinaryTree {
+public class __29VerticalOrderTraversalOfBinaryTree {
     public static class Node {
         int data;
         Node left;
