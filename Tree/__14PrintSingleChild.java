@@ -57,9 +57,9 @@ public class __14PrintSingleChild{
 
     public static void main(String[] args) {
         int arr[] = {37, 20, 113, -1,-1,-1,-1};
-        BinaryTree bt = new BinaryTree();
-        Node root = bt.constructTree(arr);
-        // bt.printTree(root);
-        bt.printSingleChild(root, null);
+        
+        Node root = BinaryTree.constructTree(arr);
+        // BinaryTree.printTree(root);
+        BinaryTree.printSingleChild(root, null);
     }
 }

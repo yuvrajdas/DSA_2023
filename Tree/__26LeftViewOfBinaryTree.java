@@ -66,13 +66,13 @@ public class __26LeftViewOfBinaryTree {
     }
 
     public static void main(String[] args) {
-        BinaryTree bt = new BinaryTree();
+   
         int arr[] = {1,2,-1,5,-1,-1,3,-1,4,-1,-1};
-        Node root = bt.constructTree(arr);
-        // bt.printTree(root);
+        Node root = BinaryTree.constructTree(arr);
+        // BinaryTree.printTree(root);
         // Left view should be => 1, 2, 5
 
-        ArrayList<Integer> res = bt.leftSideView(root);
+        ArrayList<Integer> res = BinaryTree.leftSideView(root);
         System.out.println(res);
     }
 }

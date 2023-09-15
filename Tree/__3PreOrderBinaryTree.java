@@ -34,9 +34,9 @@ public class __3PreOrderBinaryTree {
     }
 
     public static void main(String[] args) {
-        BinaryTree bt = new BinaryTree();
+        
         int arr[] = {1,2,4,-1,-1,5,-1,-1,3,-1,6,-1,-1};
-        Node root = bt.constructTree(arr);
-        bt.preOrderTraversal(root);
+        Node root = BinaryTree.constructTree(arr);
+        BinaryTree.preOrderTraversal(root);
     }
 }

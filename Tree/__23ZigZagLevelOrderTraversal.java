@@ -1,6 +1,4 @@
-import java.util.ArrayDeque;
-import java.util.ArrayList;
-import java.util.Queue;
+import java.util.*;
 
 public class __23ZigZagLevelOrderTraversal {
     
@@ -78,10 +76,9 @@ public class __23ZigZagLevelOrderTraversal {
     }
     public static void main(String[] args) {
         int arr[] = {3,9,-1,-1,20,15,-1,-1,7,-1,-1};
-
-        BinaryTree bt = new BinaryTree();
-        Node root = bt.constructTree(arr);
-        bt.printTree(root);
-        bt.zigZagTraversal(root);
+ 
+        Node root = BinaryTree.constructTree(arr);
+        BinaryTree.printTree(root);
+        BinaryTree.zigZagTraversal(root);
     }
 }

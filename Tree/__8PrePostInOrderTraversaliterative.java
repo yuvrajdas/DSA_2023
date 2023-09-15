@@ -1,6 +1,4 @@
-import java.util.ArrayDeque;
-import java.util.Queue;
-import java.util.Stack;
+import java.util.*;
 
 public class __8PrePostInOrderTraversaliterative {
 
@@ -95,11 +93,11 @@ public class __8PrePostInOrderTraversaliterative {
     }
 
     public static void main(String[] args) {
-        BinaryTree bt = new BinaryTree();
+        
         int arr[] = { 1, 2, 5, -1, -1, 6, -1, -1, 3, -1, -1 };
-        Node root = bt.constructTree(arr);
-        bt.printTree(root);
-        bt.prePostInorderTraversalIterative(root);
+        Node root = BinaryTree.constructTree(arr);
+        BinaryTree.printTree(root);
+        BinaryTree.prePostInorderTraversalIterative(root);
 
     }
 }

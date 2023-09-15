@@ -13,7 +13,7 @@ public class __19ConstructBinarySearchTree {
     
     public static class BinarySearchTree{
         
-        public Node insertInBST(Node root,int val){
+        public static Node insertInBST(Node root,int val){
             if(root == null){
                 root = new Node(val);
                 return root;
@@ -42,12 +42,12 @@ public class __19ConstructBinarySearchTree {
 
     public static void main(String[] args) {
         int arr[] = {8,5,1,7,10,12};
-        BinarySearchTree bst = new BinarySearchTree();
+        
         Node root = null;
         for(int i=0; i<arr.length; i++){
-            root = bst.insertInBST(root, arr[i]);
+            root = BinarySearchTree.insertInBST(root, arr[i]);
         }
 
-        bst.printTree(root);
+        BinarySearchTree.printTree(root);
     }
 }

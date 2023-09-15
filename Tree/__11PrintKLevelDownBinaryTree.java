@@ -41,9 +41,9 @@ public class __11PrintKLevelDownBinaryTree {
     }
     public static void main(String[] args) {
         int arr[] = {1,2,4,-1,-1,5,-1,-1,3,-1,6,-1,-1};
-        BinaryTree bt = new BinaryTree();
+        
 
-        Node root =  bt.constructTree(arr);
-        bt.printKLevelDown(root, 2);
+        Node root =  BinaryTree.constructTree(arr);
+        BinaryTree.printKLevelDown(root, 2);
     }
 }

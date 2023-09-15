@@ -56,10 +56,10 @@ public class __17TiltOfBinaryTree {
     public static void main(String[] args) {
         // int arr[] = { 1, 2, 4, -1, -1, 5, -1, -1, 3, -1, 6, -1, -1 };
         int arr[] = {4,2,3,-1,-1,5,-1,-1,9,-1,7,-1,-1};
-        BinaryTree bt = new BinaryTree();
-        Node root = bt.constructTree(arr);
-        bt.tilt(root);
-        System.out.println(bt.tilt);
+        
+        Node root = BinaryTree.constructTree(arr);
+        BinaryTree.tilt(root);
+        System.out.println(BinaryTree.tilt);
        
     }
 }

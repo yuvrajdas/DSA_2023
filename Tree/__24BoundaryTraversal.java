@@ -109,10 +109,10 @@ public class __24BoundaryTraversal {
 
     public static void main(String[] args) {
         int arr[] = { 20, 8, 4, -1, -1, 12, 10, -1, -1, 14, -1, -1, 22, -1, 25, -1, -1 };
-        BinaryTree bt = new BinaryTree();
-        Node root = bt.constructTree(arr);
-        bt.printTree(root);
-        ArrayList<Integer> res =  bt.boundaryTraversal(root);
+       
+        Node root = BinaryTree.constructTree(arr);
+        BinaryTree.printTree(root);
+        ArrayList<Integer> res =  BinaryTree.boundaryTraversal(root);
         System.out.println(res);
     }
 }

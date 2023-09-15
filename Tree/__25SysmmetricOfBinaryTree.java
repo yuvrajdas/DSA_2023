@@ -60,11 +60,11 @@ public class __25SysmmetricOfBinaryTree {
     }
 
     public static void main(String[] args) {
-        BinaryTree bt = new BinaryTree();
+        
         int arr[] = { 1, 2, 3, -1, -1, 4, -1, -1, 2, 4, -1, -1, 3, -1, -1 };
-        Node root = bt.constructTree(arr);
-        bt.printTree(root);
-        boolean res = bt.isSymmetric(root);
+        Node root = BinaryTree.constructTree(arr);
+        BinaryTree.printTree(root);
+        boolean res = BinaryTree.isSymmetric(root);
         System.out.println(res);
     }
 }

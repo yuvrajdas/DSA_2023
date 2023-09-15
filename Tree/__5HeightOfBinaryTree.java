@@ -55,11 +55,11 @@ public class __5HeightOfBinaryTree {
 
     public static void main(String[] args) {
         int arr[] = { 1, 2, 4, -1, -1, 5, -1, -1, 3, -1, 6, -1, -1 };
-        BinaryTree bt = new BinaryTree();
-        Node root = bt.constructTree(arr);
+        
+        Node root = BinaryTree.constructTree(arr);
 
-        bt.printTree(root);
-        int height = bt.heightOfBinaryTree(root);
+        BinaryTree.printTree(root);
+        int height = BinaryTree.heightOfBinaryTree(root);
         System.out.println(height);
     }
 }

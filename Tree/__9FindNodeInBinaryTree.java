@@ -43,9 +43,9 @@ public class __9FindNodeInBinaryTree {
     }
     public static void main(String[] args) {
         int arr[] = { 1, 2, 5, -1, -1, 6, -1, -1, 3, -1, -1 };
-        BinaryTree bt = new BinaryTree();
-        Node root = bt.constructTree(arr);
-        boolean res = bt.findNode(root, 3);
+        
+        Node root = BinaryTree.constructTree(arr);
+        boolean res = BinaryTree.findNode(root, 3);
         System.out.println(res);
     }
 }

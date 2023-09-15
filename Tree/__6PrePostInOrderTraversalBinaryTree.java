@@ -59,13 +59,13 @@ public class __6PrePostInOrderTraversalBinaryTree {
 
     public static void main(String[] args) {
         int arr[] = { 1, 2, 4, -1, -1, 5, -1, -1, 3, -1, 6, -1, -1 };
-        BinaryTree bt = new BinaryTree();
-        Node root = bt.constructTree(arr);
-        bt.preorderTraversal(root);
+        
+        Node root = BinaryTree.constructTree(arr);
+        BinaryTree.preorderTraversal(root);
         System.out.println();
-        bt.postOrderTraversal(root);
+        BinaryTree.postOrderTraversal(root);
         System.out.println();
-        bt.inOrderTraversal(root);
+        BinaryTree.inOrderTraversal(root);
         
     }
 }

@@ -94,10 +94,10 @@ public class __12PrintKdistanceNodes {
     public static void main(String[] args) {
         int arr[] = { 3, 5, 6, -1, -1, 2, 7, -1, -1, 4, -1, -1, 1, 0, -1, -1, 8, -1, -1 };
 
-        BinaryTree bt = new BinaryTree();
-        Node root = bt.constructTree(arr);
-        bt.printList(root);
+        
+        Node root = BinaryTree.constructTree(arr);
+        BinaryTree.printList(root);
         System.out.println();
-        bt.printNodeFromKdistance(root, 1, 5);
+        BinaryTree.printNodeFromKdistance(root, 1, 5);
     }
 }

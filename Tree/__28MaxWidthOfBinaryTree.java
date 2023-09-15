@@ -78,12 +78,11 @@ public class __28MaxWidthOfBinaryTree {
     }
 
     public static void main(String[] args) {
-        BinaryTree bt = new BinaryTree();
+     
         int arr[] = { 1, 3, 5, -1, -1, 3, -1, -1, 2, -1, 9, -1, -1 };
-        Node root = bt.constructTree(arr);
-        // bt.printTree(root);
-
-        bt.widthOfBinaryTree(root);
+        Node root = BinaryTree.constructTree(arr);
+        // BinaryTree.printTree(root);
+        BinaryTree.widthOfBinaryTree(root);
         
     }
 }

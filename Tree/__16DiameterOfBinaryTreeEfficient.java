@@ -59,12 +59,12 @@ public class __16DiameterOfBinaryTreeEfficient {
     public static void main(String[] args) {
         int arr[] = {3,5,6,-1,-1,2,7,18,-1,-1,-1,4,-1,-1,1,0,-1,-1,8,-1,-1};
 
-        BinaryTree bt = new BinaryTree();
-        Node root = bt.constructTree(arr);
-        bt.printList(root);
+        
+        Node root = BinaryTree.constructTree(arr);
+        BinaryTree.printList(root);
 
         // O(n) Time Complexity
-        int dia = bt.diaMeterOfBinaryTree(root); 
+        int dia = BinaryTree.diaMeterOfBinaryTree(root); 
         System.out.println(dia);
     }
 }

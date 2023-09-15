@@ -65,21 +65,21 @@ public class __4SumMaxSizeBinaryTree{
         }
     }
     public static void main(String[] args) {
-        BinaryTree bt = new BinaryTree();
+        
         int arr[] = {1,2,4,-1,-1,5,-1,-1,3,-1,6,-1,-1};
-        Node root = bt.constructTree(arr);
-        bt.printTree(root);
+        Node root = BinaryTree.constructTree(arr);
+        BinaryTree.printTree(root);
 
         // Size of Binary Tree
-        int size = bt.sizeOfBinaryTree(root);
+        int size = BinaryTree.sizeOfBinaryTree(root);
         System.out.println("size of tree : "+size);
 
         // Sum of Binary Tree 
-        int sum = bt.totalSumOfBinaryTree(root);
+        int sum = BinaryTree.totalSumOfBinaryTree(root);
         System.out.println("Sum of tree : "+sum);
 
         // Max of Binary Tree
-        int max = bt.maxOfBinaryTee(root);
+        int max = BinaryTree.maxOfBinaryTee(root);
         System.out.println("Max is : "+max);
     }
 }

@@ -58,9 +58,9 @@ public class __10NodeToRootPathBinaryTree {
         int arr[] = {1,2,4,-1,-1,5,-1,-1,3,-1,6,-1,-1};
         path = new ArrayList<>();
 
-        BinaryTree bt = new BinaryTree();
-        Node root = bt.constructTree(arr);
-        bt.nodeToRootPath(root, 6);
+        
+        Node root = BinaryTree.constructTree(arr);
+        BinaryTree.nodeToRootPath(root, 6);
         System.out.println(path);
     }
 }

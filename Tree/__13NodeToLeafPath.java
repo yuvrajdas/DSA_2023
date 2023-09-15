@@ -59,12 +59,12 @@ public class __13NodeToLeafPath {
 
     public static void main(String[] args) {  
         int arr[] = {1,2,-1,-1,3,-1,-1};
-        BinaryTree bt = new BinaryTree();
-        Node root = bt.constructTree(arr);
+        
+        Node root = BinaryTree.constructTree(arr);
 
-        // bt.printTree(root);
-        bt.rootToLeafPath(root, new ArrayList<>());
-       bt.printRes();
+        // BinaryTree.printTree(root);
+        BinaryTree.rootToLeafPath(root, new ArrayList<>());
+       BinaryTree.printRes();
         
     }
 }

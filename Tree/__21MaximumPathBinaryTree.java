@@ -66,11 +66,11 @@ public class __21MaximumPathBinaryTree {
 
     public static void main(String[] args) {
         int arr[] = { -10, 9, -1, -1, 20, 15, -1, -1, 7, -1, -1 };
-        BinaryTree bt = new BinaryTree();
-        Node root = bt.constructTree(arr);
-        bt.printTree(root);
+        
+        Node root = BinaryTree.constructTree(arr);
+        BinaryTree.printTree(root);
 
-        int maxPath = bt.maximumPathSum(root);
+        int maxPath = BinaryTree.maximumPathSum(root);
         System.out.println(maxPath);
 
     }
