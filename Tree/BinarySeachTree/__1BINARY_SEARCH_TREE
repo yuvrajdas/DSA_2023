@@ -1,0 +1,9 @@
+Binary Search tree
+1. Follows all property of Binary Tree.
+2. Left child node should always smaller than the root node
+3. Right child node should always greater than the root node
+4. same for the left sub-tree and right sub-tree
+5. In BST in-order traversal returns always sorted data/view_array
+
+*********************** Time Complexity ***********************
+O(H) | H =  height of a Binary Search Tree
