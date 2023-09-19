@@ -1,6 +1,6 @@
 package BinarySeachTree;
 
-public class __SumOfBST {
+public class __7SumOfBST {
 
     public static class Node{
         int data;
