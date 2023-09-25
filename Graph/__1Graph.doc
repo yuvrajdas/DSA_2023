@@ -1,0 +1,25 @@
+Graph is a non-linear Data Structure consisting of Vertices and Edeges. OR Network of node
+
+Vertices => (Data Pointer)
+Edeges => (Path between Two Nodes)
+
+Types of Graph :
+1. Directed Graph (With weight / without weight)
+2. Un-Directed Graph (With weight / without wieght)
+
+    Eg. Directed Graph
+A------------>B------------->C
+|             |           `arrow
+|             |       `
+|             |    `
+|arrow        |  ` 
+D------------->E`
+
+
+    Eg. Undirected Graph.
+A-------------B-------------C
+|             |           `
+|             |       `
+|             |    `
+|             |  ` 
+D-------------E`
