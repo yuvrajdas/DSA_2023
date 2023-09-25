@@ -2,7 +2,7 @@ package Graph;
 
 import java.util.*;
 
-public class __2ConstructUndirectedUnWeightedGraph {
+public class __2UndirectedUnWeightedGraph {
     
     static class Edge{
         int src;
