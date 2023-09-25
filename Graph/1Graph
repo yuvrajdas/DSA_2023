@@ -1,4 +1,5 @@
 Graph is a non-linear Data Structure consisting of Vertices and Edeges.
+Or (Networks of Nodes)
 
 Vertex => (Data/Info)
 Edege => Path between two vertex (which can have some weight)
