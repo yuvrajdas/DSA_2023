@@ -57,7 +57,6 @@ public class __13IsGraphCyclic {
                 }
             }
         }
-
         return false;
     }
     public static boolean isGraphCyclic(ArrayList<Edge> graph[], int v){
